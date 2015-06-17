@@ -1,3 +1,33 @@
 .uk-modal {
 	z-index: 5000000;
 }
+
+.my-play-button {
+	border-style: solid !important;
+	border-width: 1px !important;
+	border-color: #444444 !important;
+	border-radius: 5px;
+	font-size: 16pt;
+	padding: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	background: transparent;
+}
+
+.my-play-button:hover {
+	color: #28b9f1;
+	border-color: #28b9f1 !important;
+	background: #eee;
+	font-weight: 600 !important;
+}
+
+.go-down-button {
+	border-style: solid !important;
+	width: 55px !important;
+	border-width: 1px !important;
+	border-color: #444444 !important;
+	border-radius: 50px;
+	font-size: 25pt;
+	padding: 10px;
+	background: transparent;
+}
