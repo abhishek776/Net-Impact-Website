@@ -31,3 +31,47 @@
 	padding: 10px;
 	background: transparent;
 }
+
+.uk-panel {
+	background-color: #EAEAEA;
+	border-radius: 5px;
+	border-style: solid;
+	border-color: #A5A5A5;
+	border-width: 1px;
+}
+
+h4.calendar {
+	text-align: left;
+	font-size: 13pt;
+	color: #2A72B4;
+	font-weight: 600;
+	margin-bottom: 8px;
+}
+
+hr.calendar{
+	border-color: #A5A5A5;
+	margin: 5px 0px;
+}
+
+p.cal-info{
+	font-size: 12pt;
+	margin: 0;
+}
+
+.cal-link {
+	color: #444444;
+}
+
+.cal-link:hover{
+	text-decoration: none !important;
+	color:#28b9f1;
+}
+
+.overlay-text {
+	font-weight: 400;
+	font-family: 'Source Sans Pro', sans-serif;
+};
+
+.no-pointer {
+	cursor: default;
+}
