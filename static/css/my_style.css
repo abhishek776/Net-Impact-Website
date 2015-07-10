@@ -75,3 +75,28 @@ p.cal-info{
 .no-pointer {
 	cursor: default;
 }
+
+#start {
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+}
+
+.nib-icon {
+}
+
+#navigation, .uk-sticky-placeholder {
+	height: 60px !important;
+}
+
+.nav-middle {
+	padding-top: 10px;
+}
+
+.start-section {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+}
+
