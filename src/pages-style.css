@@ -70,5 +70,12 @@ figcaption hr {
 
 figcaption .icons {
     text-align: center;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 20px;
+}
+
+figcaption .icons:hover {
     color: #28b9f1;
+    border-color:#28b9f1;
 }
