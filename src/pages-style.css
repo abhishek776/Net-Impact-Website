@@ -74,8 +74,8 @@ figcaption .icons {
     border-style: solid;
     border-width: 2px;
     border-radius: 20px;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
 }
 
 figcaption .icons:hover {
