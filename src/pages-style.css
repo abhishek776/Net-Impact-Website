@@ -71,8 +71,11 @@ figcaption hr {
 figcaption .icons {
     text-align: center;
     border-color: white;
+    border-style: solid;
     border-width: 2px;
     border-radius: 20px;
+    width: 20px;
+    height: 20px;
 }
 
 figcaption .icons:hover {
