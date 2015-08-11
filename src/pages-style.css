@@ -43,8 +43,8 @@ h5 {
 }
 
 figcaption {
-    padding-top: 30px !important;
-    padding-bottom: 30px !important;
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
 }
 
 figcaption h6 {
@@ -70,12 +70,19 @@ figcaption hr {
 
 figcaption .icons {
     text-align: center;
+    color: white;
     border-color: white;
     border-style: solid;
     border-width: 2px;
     border-radius: 20px;
     width: 30px;
-    height: 30px;
+    height: 25px;
+    padding-top: 5px;
+    margin: auto;
+}
+
+figcaption .icons a {
+    margin: auto;
 }
 
 figcaption .icons:hover {
