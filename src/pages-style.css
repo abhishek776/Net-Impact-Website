@@ -1,0 +1,74 @@
+.container {
+    padding: 15px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.quote-block {
+    border-color: #28b9f1;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 8px;
+    padding: 0px; 
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height:120px;
+}
+
+.quote-block .left {
+    padding: 20px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    border-right-color: #28b9f1;
+    border-right-width: 3px;
+    border-right-style: solid;
+}
+
+.quote-block .right {
+    padding: 15px;
+    font-size: 16px;
+}
+
+h4 {
+    font-size: 40px;
+}
+
+h5 {
+    font-size: 25px;
+    text-align: left;
+}
+
+.no-padding {
+    padding-left: 0px !important;
+}
+
+figcaption {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+}
+
+figcaption h6 {
+    font-size: 18px;
+    font-weight:600;
+    margin:0px;
+    margin-bottom: 5px;
+}
+
+figcaption h5 {
+    font-size: 16px;
+    margin:0px;
+    text-align: center;
+}
+
+figcaption hr {
+    margin: 0px;
+    width: 70%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+figcaption .icons {
+    text-align: center;
+    color: #28b9f1;
+}
