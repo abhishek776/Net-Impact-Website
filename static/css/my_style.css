@@ -18,6 +18,10 @@ h1, h2, h3, h4, h5, h6, p, blockquote, footer, ul li, a, div, input, th, tr, td{
 	background: transparent;
 }
 
+.uk-navbar-nav>li>a:hover {
+	color: #1C7DA2 !important;
+}
+
 .my-play-button:hover {
 	color: #28b9f1;
 	border-color: #28b9f1 !important;
