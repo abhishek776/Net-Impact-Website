@@ -27,6 +27,16 @@ h1, h2, h3, h4, h5, h6, p, blockquote, footer, ul li, a, div, input, th, tr, td{
 	left:0;
 }
 
+.my-footer .icons {
+	color:white;
+	width: 20px;
+	height: 20px;
+}
+
+.my-footer .icons:hover {
+	color:#28b9f1;
+}
+
 html,
 body {
 	margin:0;
