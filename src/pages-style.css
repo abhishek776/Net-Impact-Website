@@ -24,6 +24,14 @@
     border-right-style: solid;
 }
 
+.uk-table td {
+    border-bottom: 1px solid #e5e5e5
+}
+
+.uk-table th {
+    border-bottom: 1px solid #e5e5e5
+}
+
 .quote-block .right {
     padding: 15px;
     font-size: 16px;
