@@ -43,8 +43,8 @@ h5 {
 }
 
 figcaption {
-    padding-top: 40px !important;
-    padding-bottom: 40px !important;
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
 }
 
 figcaption h6 {
@@ -88,4 +88,15 @@ figcaption .icons a {
 figcaption .icons:hover {
     color: #28b9f1;
     border-color:#28b9f1;
+}
+
+.content-holder h3 {
+    font-size: 25px;
+    text-align: left;
+}
+
+.content-holder p {
+    font-size: 15px;
+    margin-left: 5px;
+    line-height: 120%;
 }
