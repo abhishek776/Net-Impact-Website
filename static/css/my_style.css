@@ -25,13 +25,16 @@ h1, h2, h3, h4, h5, h6, p, blockquote, footer, ul li, a, div, input, th, tr, td{
 	position:absolute;
 	bottom:0;
 	left:0;
-	margin-top:75px;
 }
 
 .my-footer .icons {
 	color:white;
 	width: 20px;
 	height: 20px;
+}
+
+.container {
+	margin-bottom:75px;
 }
 
 .my-footer .icons:hover {
