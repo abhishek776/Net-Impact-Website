@@ -24,6 +24,14 @@
     border-right-style: solid;
 }
 
+.my-bold {
+    font-weight: 600;
+}
+
+.my-link:hover {
+    color: #1C7DA2;
+}
+
 .uk-table td {
     border-bottom: 1px solid #e5e5e5
 }

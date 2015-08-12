@@ -18,6 +18,28 @@ h1, h2, h3, h4, h5, h6, p, blockquote, footer, ul li, a, div, input, th, tr, td{
 	background: transparent;
 }
 
+.my-footer {
+	background:#333;
+	width:100%;
+	height:60px;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+
+html,
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+}
+
+.wrapper {
+	min-height:100%;
+	position:relative;
+	overflow: scroll;
+}
+
 .uk-navbar-nav>li>a:hover {
 	color: #1C7DA2 !important;
 }
@@ -118,10 +140,10 @@ p.cal-info{
 	padding-top: 10px;
 }
 
-.start-section {
+/*.start-section {
 	overflow: scroll;
 	position: fixed;
 	width: 100%;
 	height: 100%;
-}
+}*/
 
