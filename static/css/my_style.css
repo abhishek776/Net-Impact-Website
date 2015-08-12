@@ -54,24 +54,41 @@ body {
 	overflow: scroll;
 }
 
+.uk-navbar-nav>li>a {
+	color: white !important;
+	font-size: 15px;
+}
+
+.uk-navbar-nav>li.uk-active>a {
+	text-decoration: none;
+}
+
+.uk-navbar-nav>li.uk-active>a>span {
+	padding-bottom: 3px;
+	border-bottom: 2px solid white;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+
 .uk-navbar-nav>li>a:hover {
-	color: #1C7DA2 !important;
+	color: black !important;
 }
 
 .uk-navbar-nav>li>a:focus {
-	color: #1C7DA2 !important;
-}
-
-.uk-navbar-nav>li.uk-active>a:hover {
-	color: #444 !important;
+	color: black !important;
 }
 
 .uk-navbar-nav>li>a:active {
-	color: #1C7DA2 !important;
+	color: black !important;
+}
+
+.uk-navbar-nav>li.uk-active>a:hover {
+	color: white !important;
 }
 
 .uk-navbar-nav>li.uk-active>a:active {
-	color: #444 !important;
+	color: white !important;
 }
 
 .my-play-button:hover {
