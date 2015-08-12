@@ -26,6 +26,14 @@ h1, h2, h3, h4, h5, h6, p, blockquote, footer, ul li, a, div, input, th, tr, td{
 	color: #444 !important;
 }
 
+.uk-navbar-nav>li>a:active {
+	color: #1C7DA2 !important;
+}
+
+.uk-navbar-nav>li.uk-active>a:active {
+	color: #444 !important;
+}
+
 .my-play-button:hover {
 	color: #28b9f1;
 	border-color: #28b9f1 !important;
