@@ -16,6 +16,17 @@
     height:120px;
 }
 
+.quote-block .right-thick-border {
+    border-right-color: #28b9f1;
+    border-right-width: 3px;
+    border-right-style: solid;
+}
+
+.quote-block .quote-text {
+    line-height: 120%;
+    font-size: 16px;
+}
+
 .quote-block .left {
     padding: 20px;
     padding-top: 33px;
@@ -118,12 +129,33 @@ figcaption .icons:hover {
     font-weight: 400;
 }
 
+.sub-header {
+    padding-bottom: 5px;
+    border-bottom: 2px dashed #5EB388;
+    min-width: 200px;
+    width: 30%;
+    color: #5EB388;
+    font-weight: 400;
+}
+
 .content-holder h4 {
     text-align: center;
     font-size: 24px;
 }
 
-h4>span {
+.content-holder h4>span, .slideshow-holder h4>span{
+    color: #5EB388;
+    font-weight: 600;
+    border-bottom: 2px dashed #5EB388;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+h4>span.extra-padding {
+    padding-bottom: 3px;
+}
+
+.container .uk-width-1-1>h4>span {
     color: #28b9f1;
     font-weight: 600;
     border-bottom: 2px solid #28b9f1;
