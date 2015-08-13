@@ -14,6 +14,7 @@
     padding-top: 15px;
     padding-bottom: 15px;
     height:120px;
+    margin-bottom: 40px;
 }
 
 .quote-block .right-thick-border {
@@ -185,4 +186,36 @@ h4>span.extra-padding {
 .uk-overlay img {
     width: 100%;
     height: 100%;
+}
+
+.full-height {
+    height: 100% !important;
+}
+
+@media (min-width: 768px) {
+
+    .slideshow-holder {
+        padding-top: 50px !important; 
+    }
+
+    .page-title {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    
+    .page-title {
+        margin-bottom: 30px;
+    }
+
+    .content-holder {
+        padding-right: 0px !important;
+    }
+
+    .container {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
 }
