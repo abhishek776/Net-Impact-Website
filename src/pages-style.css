@@ -201,16 +201,58 @@ h4>span.extra-padding {
     .page-title {
         margin-bottom: 15px;
     }
+
+    .only-mobile {
+        display: none;
+    }
+
+    .only-desktop {
+        display: block;
+    }
+
+    .only-small {
+        display:none;
+    }
+
+    .desktop-40-margin {
+        margin-top: 40px !important;
+    }
+
+    .desktop-40-margin {
+        margin-top: 30px !important;
+    }
+
+    .content-holder {
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 960px) {
+    .container {
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+
+    .desktop-30-margin {
+        margin-top: 5px !important;
+    }
 }
 
 @media (max-width: 768px) {
-    
+
     .page-title {
         margin-bottom: 30px;
     }
 
     .content-holder {
-        padding-right: 0px !important;
+        margin-top: 10px !important;
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .content-holder h4 {
+        margin: 0px;
+        margin-top: 0px !important;
     }
 
     .container {
@@ -218,4 +260,40 @@ h4>span.extra-padding {
         padding-right: 20px !important;
     }
 
+    .only-mobile {
+        display: none;
+    }
+
+    .only-desktop {
+        display: none;
+    }
+
+    .only-small {
+        display:block;
+    }
+
+    .desktop-40-margin {
+        margin-top: 5px !important;
+    }
+
+    .desktop-30-margin {
+        margin-top: 5px !important;
+    }
+
+    .no-padding-mobile {
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+
+}
+
+@media (max-width: 480px) {
+    
+    .only-mobile {
+        display: block !important;
+    }
+
+    .content-holder {
+        padding-right: 0px !important;
+    }
 }
