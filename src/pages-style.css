@@ -320,11 +320,21 @@ h4>span.extra-padding {
 
 @media (max-width: 480px) {
     
+    .exec hr {
+        display: none !important;
+    }
+
+    .exec .icons {
+        display: none !important;
+    }
+
+    .member h5 {
+        display: none !important;
+    }
+
     .only-mobile {
         display: block !important;
     }
-
-
 
     .content-holder {
         padding-right: 0px !important;
