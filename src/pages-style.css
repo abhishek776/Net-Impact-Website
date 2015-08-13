@@ -192,6 +192,11 @@ h4>span.extra-padding {
     height: 100% !important;
 }
 
+.no-padding-all {
+    padding: 0px 5px !important;
+
+}
+
 @media (min-width: 768px) {
 
     .slideshow-holder {
@@ -238,10 +243,36 @@ h4>span.extra-padding {
     }
 }
 
+@media (max-width: 950px) {
+    .exec hr {
+        display: none;
+    }
+
+    .exec .icons {
+        display: none;
+    }
+
+    .member hr {
+        display: none;
+    }
+
+    .member .icons {
+        display: none;
+    }
+}
+
 @media (max-width: 768px) {
 
     .page-title {
         margin-bottom: 30px;
+    }
+
+    .exec .icons {
+        display: block !important;
+    }
+
+    .exec hr {
+        display: block !important;
     }
 
     .content-holder {
@@ -292,6 +323,8 @@ h4>span.extra-padding {
     .only-mobile {
         display: block !important;
     }
+
+
 
     .content-holder {
         padding-right: 0px !important;
