@@ -339,4 +339,8 @@ h4>span.extra-padding {
     .content-holder {
         padding-right: 0px !important;
     }
+
+    .ani {
+        font-size: 13px !important;
+    }
 }
