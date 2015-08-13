@@ -173,7 +173,18 @@ p.cal-info{
 
 #offcanvas-bar {
 	top: 60px !important;
+	background-color: #333;
 }
+
+.uk-nav-offcanvas li>a {
+	font-weight: 400;
+	color: white;
+}
+
+.uk-nav-offcanvas li.uk-active>a {
+	background-color: #5EB388 !important;
+}
+
 
 @media (min-width: 768px) {
 
