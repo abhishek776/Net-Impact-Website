@@ -342,3 +342,11 @@ h4>span.extra-padding {
         font-size: 13px !important;
     }
 }
+
+@media(min-width:960px) {
+    
+    .img-margin {
+        margin-top:30px;
+        margin-bottom:30px;
+    }
+}
