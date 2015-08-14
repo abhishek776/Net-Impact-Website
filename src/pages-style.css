@@ -345,6 +345,19 @@ h4>span.extra-padding {
     .ani {
         font-size: 13px !important;
     }
+
+    .img-margin {
+        margin-top:0px;
+        margin-bottom:0px;
+    }
+}
+
+@media(max-width: 768px) {
+
+    .img-margin {
+        margin-top:30px;
+        margin-bottom:30px;
+    }
 }
 
 @media(min-width:960px) {
