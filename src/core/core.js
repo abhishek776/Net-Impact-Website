@@ -12,4 +12,8 @@ $(document).ready(function() {
     $('#off-canvas-click').click();
     UIkit.offcanvas.hide([force = true]);
 
+    $('.exec div.icons').click(function(e) {
+        $(this).children()[0].click();
+    });
+
 })
