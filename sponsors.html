@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.21.0/css/uikit.min.css">
-    <link rel="stylesheet" href="./static/css/components/slideshow.min.css">
     <link rel="stylesheet" href="./static/css/slick.css">
     <link rel="stylesheet" href="./static/css/style.css">   
     <link rel="stylesheet" href="./static/css/my_style.css">
@@ -16,7 +15,7 @@
 
     <title>Net Impact Berkeley</title>
     <link rel="shortcut icon" href="static/images/favicon.png">
-    
+
 </head>
 
 
@@ -24,7 +23,7 @@
 <body lang="en">
 
 <div class="wrapper colour-bg-1">
-
+    
     <div class="uk-sticky-placeholder" style="height: 60px; margin: 0px;">
         <div id="navigation" class="full-width colour-bg-1 sticky-navigation uk-sticky-init uk-active" style="position: fixed; top: 0px; width: 100%; left: 0px;background-color:#6ab5db">
             <div class="uk-container uk-container-center nav-middle">
@@ -37,12 +36,12 @@
                         </ul>
                         <div class="uk-navbar-flip">
                             <ul class="uk-navbar-nav uk-hidden-small">
-                                <li class="uk-parent uk-hidden-small"><a href="./index.html" >Home</a></li>
-                                <li class="uk-parent uk-hidden-small uk-active"><a href="./about.html"><span>About</span></a></li>
+                                <li class="uk-parent start uk-hidden-small"><a href="./index.html">Home</a></li>
+                                <li class="uk-parent uk-hidden-small"><a href="./about.html">About</a></li>
                                 <li class="uk-parent uk-hidden-small"><a href="./team.html">Team</a></li>
                                 <li class="uk-parent uk-hidden-small"><a href="./projects.html">Projects</a></li>
                                 <li class="uk-parent uk-hidden-small"><a href="./clients.html">Clients</a></li>
-                                <li class="uk-parent uk-hidden-small"><a href="./sponsors.html">Sponsors</a></li>
+                                <li class="uk-parent uk-active uk-hidden-small"><a href="./sponsors.html"><span>Sponsors</span></a></li>
                                 <li class="uk-parent uk-hidden-small"><a href="./recruiting.html">Recruiting</a></li>
                                 <li class="uk-parent uk-hidden-small"><a>Apply Now</a></li>
                             </ul>
@@ -54,86 +53,84 @@
         </div>
     </div>
 
-    <div id="offcanvas-1" class="uk-offcanvas" aria-hidden="true">
+    <div id="offcanvas-1" class="uk-offcanvas" aria-hidden='true'>
         <div id="offcanvas-bar" class="uk-offcanvas-bar">
             <ul class="uk-nav uk-nav-offcanvas" data-uk-nav>
                 <li class="uk-parent"><a href="./index.html">Home</a></li>
-                <li class="uk-parent uk-active"><a href="./about.html">About</a></li>
+                <li class="uk-parent"><a href="./about.html">About</a></li>
                 <li class="uk-parent"><a href="./team.html">Team</a></li>
                 <li class="uk-parent"><a href="./projects.html">Projects</a></li>
                 <li class="uk-parent"><a href="./clients.html">Clients</a></li>
-                <li class="uk-parent"><a href="./sponsors.html">Sponsors</a></li>
+                <li class="uk-parent uk-active"><a href="./sponsors.html">Sponsors</a></li>
                 <li class="uk-parent"><a href="./recruiting.html">Recruiting</a></li>
-            </ul>
             </ul>
         </div>
     </div>
-    
+
     <div class="container colour-bg-1">
         
-        <div class="uk-block uk-block-muted quote-block uk-hidden-small" style="border-color:rgb(251,105,23)">
+        <div class="uk-block uk-block-muted quote-block uk-hidden-small" style="border-color:rgb(111,172,28)">
             <div class="uk-grid uk-grid-collapse full-height">
                 <div class="uk-width-medium-3-10 uk-width-large-2-10 no-padding full-height" stye="padding:0px">
-                    <div class="right-thick-border" style="border-color:rgb(251,105,23)">
-                        <img class="uk-align-center" src="static/images/logos/sungevity.png" style="height:90px">
+                    <div class="right-thick-border" style="border-color:rgb(111,172,28)">
+                        <img class="uk-align-center" src="src/clients/crs.png" style="height:90px">
                     </div>
                 </div>
                 <div class="uk-width-medium-7-10 uk-width-large-8-10 uk-vertical-align full-height" style="padding-left:20px;padding-right:20px">
                     <p class="uk-vertical-align-middle quote-text">
-                        "Net Impact [Berkeley] offers a fantastic service. They are able to sort through complex data and market variables to produce clear, straight forward results that help companies improve various functions related to their overall bottom line."
+                        "As a small non-profit, we were offered an affordable, high-level, and very professional service from the consultants at Net Impact Berkeley. Their solutions have been extremely crucial in the growth of our organization."
                     </p>
                 </div>
             </div>
         </div>
-        
-        <div class="uk-grid page-title">
+
+        <div class="uk-grid page-title" style="">
             <article class="uk-width-1-1">
-                <h4><span>About Us</span></h4>
+                <h4><span>Our Sponsors</span></h4>
             </article> 
         </div>
 
-        <div class="uk-grid uk-grid-collapse" style="margin-top:0px;">
+        <div class="uk-grid desktop-40-margin" style="">
+            <div class="uk-width-medium-1-2">
+                <div class="content-holder" style="padding:10px;padding-left:0px;padding-right:30px;padding-top:30px"> 
 
-            <div class="uk-width-medium-1-2 uk-push-1-2 ">
-                <div class="slideshow-holder" style="padding:20px">
-                    <ul class="uk-slideshow" data-uk-slideshow="{autoplay:true, autoplayInterval:2500, duration:500}" style="border-radius:10px;">
-                        <li><img src="src/about/slideshow/0.jpg" width="" height="" alt=""></li>
-                        <li><img src="src/about/slideshow/1.jpg" width="" height="" alt=""></li>
-                        <li><img src="src/about/slideshow/2.jpg" width="" height="" alt=""></li>
-                        <li><img src="src/about/slideshow/3.jpg" width="" height="" alt=""></li>
-                        <li><img src="src/about/slideshow/4.jpg" width="" height="" alt=""></li>
-                        <li><img src="src/about/slideshow/5.jpg" width="" height="" alt=""></li>
-                        <li><img src="src/about/slideshow/6.jpg" width="" height="" alt=""></li>
-                        <li><img src="src/about/slideshow/7.jpg" width="" height="" alt=""></li>
-                        <li><img src="src/about/slideshow/8.jpg" width="" height="" alt=""></li>
-                        <li><img src="src/about/slideshow/9.jpg" width="" height="" alt=""></li>
-                        <li><img src="src/about/slideshow/10.jpg" width="" height="" alt=""></li>
-                        <li><img src="src/about/slideshow/11.jpg" width="" height="" alt=""></li>
-                        <li><img src="src/about/slideshow/12.jpg" width="" height="" alt=""></li>
-                    </ul>
-                </div>
-            </div>
-            
-            <div class="uk-width-medium-1-2 uk-pull-1-2  no-padding">
-                <div class="content-holder" style="padding:20px;padding-left:0px;padding-bottom:0px">
-                    <h3><span>MISSION</span></h3>
+                    <h3><span>GOAL</span></h3>
                     <p>
-                        Through our focus on social and environmental impact, innovative methods, and diverse backgrounds, Net Impact Berkeley strives to bring <span class="my-bold">social responsibility</span> and <span class="my-bold">environmental stewarship</span> to business and innovation.
+                        Through sponsorships, we hope to increase member exposure to <span class="my-bold">professional opportunities</span>, provide an avenue through which to host quality <span class="my-bold">external events</span> on campus, and build partnerships to support our <span class="my-bold">consulting practice</span> and <span class="my-bold">professional development</span> services to members.
                     </p>
-                    <h3><span>PRACTICE</span></h3>
+                    <h3><span>SERVICES</span></h3>
                     <p>
-                        Net Impact Berkeley Undergrad is a non-profit, <span class="my-bold">student-run consulting group</span> on the UC Berkeley campus. Our undergraduate chapter is unique for being the premier student group that consults for <span class="my-bold">social enterprises</span>, <span class="my-bold">non-profits</span> and <span class="my-bold">sustainable businesses</span>. We provide services to our clients, including impact and financial analyses, marketing, research, and corporate social responsibility.
+                        Net Impact Berkeley offers a number of services to its sponsors including <span class="my-bold">marketing services</span> to improve the sponsor's brand awareness among the student body, <span class="my-bold">room reservations</span> for on campus events, a <span class="my-bold">professional relationship</span> with our members, and <span class="my-bold">campus connections</span> to other professional organizations and socially responsible groups.
                     </p>
-                    <p class="uk-hidden-small">
-                        We believe in the power of working directly with leading industry professionals to create social or environmental impact. Each semester, we conduct five projects each of which is conducted by a project team consisting of a project manager and four associates.
-                    </p>
-                    <h3><span>ROOTS</span></h3>
+                    <h3><span>NEXT STEPS</span></h3>
                     <p>
-                        Our parent organization, Net Impact, is an international organization of over <span class="my-bold">30,000 undergraduates</span>, <span class="my-bold">graduates</span> and <span class="my-bold">professionals</span>. We are united by the common mission of using business to solve the world's toughest social and environmental problems. Net Impact Berkeley members have access to this amazing network, most notably through the annual Net Impact Conference. Learn more about Net Impact at <a target="_blank" href="https://netimpact.org" class="my-link">netimpact.org</a>.
+                        For more information about sponsoring Net Impact Berkeley, please refer to our <a class="my-link" target="_blank" href="src/core/sponsorship.pdf">sponsorship packet</a>. For any additional questions and sponsorship inquiries, please contact us at <a class="my-link" href="mailto:nibundergrad@gmail.com?Subject=Sponsorship%20Inquiry">nibundergrad@gmail.com</a>.
                     </p>
                 </div>
             </div>
-        </div>
+
+            <div class="uk-width-medium-1-2 border-left no-padding-mobile" style="padding:25px;padding-left:40px">
+                <div class="uk-grid uk-grid-large" style="padding:0px;padding-top:20px">
+                    <div class="uk-width-large-1-2 uk-width-small-1-2 uk-width-6-10 uk-width-medium-6-10 uk-vertical-align" style="height:100%;padding-bottom:30px;">
+                        <img class="uk-vertical-align-middle" src="src/sponsors/accenture.png">
+                    </div>
+                    <div class="uk-width-large-1-2 uk-width-small-1-2 uk-width-4-10 uk-width-medium-4-10 uk-vertical-align" style="height:100%;padding-bottom:30px;">
+                        <img class="uk-vertical-align-middle" src="src/sponsors/pwc.png">
+                    </div>
+                    <div class="uk-width-6-10 uk-width-large-4-10 uk-width-small-4-10 uk-width-medium-6-10 uk-vertical-align" style="height:100%;padding-bottom:30px;">
+                        <img class="uk-vertical-align-middle" style="margin-top:30px;margin-bottom:30px;"src="src/sponsors/crb.png">
+                    </div>
+                    <div class="uk-width-4-10 uk-width-large-3-10 uk-width-small-3-10 uk-width-medium-4-10 uk-vertical-align" style="height:100%;padding-bottom:20px;">
+                        <img class="uk-vertical-align-middle" style=""src="src/sponsors/asuc.png">
+                    </div>
+                    <div class="uk-width-medium-2-10 uk-hidden-small uk-hidden-large"></div>
+                    <div class="uk-width-3-4 uk-width-large-3-10 uk-width-small-3-10 uk-width-medium-6-10 uk-vertical-align" style="height:100%;padding-bottom:30px;">
+                        <img class="uk-vertical-align-middle" style="margin-top:30px;margin-bottom:30px;"src="src/sponsors/haas.png">
+                    </div>
+                    <div class="uk-width-medium-2-10 uk-hidden-small uk-hidden-large"></div>
+                </div>
+            </div>
+        </div>    
     </div>
 
     <footer class="my-footer">
@@ -156,6 +153,7 @@
             </div>
         </div>
     </footer>
+
 </div>
 
 
@@ -165,7 +163,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.21.0/js/uikit.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.21.0/js/components/grid.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.21.0/js/components/sticky.min.js"></script>
-<script src="./static/js/components/slideshow.min.js"></script>
 <script src="./static/js/slick.js"></script>
 <script src="./static/js/main.js"></script>
 <script src="./src/core/core.js"></script>
