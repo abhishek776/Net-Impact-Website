@@ -347,8 +347,8 @@ h4>span.extra-padding {
     }
 
     .img-margin {
-        margin-top:0px;
-        margin-bottom:0px;
+        margin-top:0px !important;
+        margin-bottom:0px !important;
     }
 }
 
