@@ -71,20 +71,15 @@ body {
 .uk-navbar-nav>li.special>a {
 	text-decoration: none;
 	border-width: 2px;
-	border-color: #51A279;
+	border-color: white;
 	border-style: solid;
 	border-radius: 8px;
 	line-height: 15px;
-	padding-left: 12px;
-	padding-right: 12px;
-	padding-top: 10px;
-	padding-bottom: 11px;
-	background-color: #3BD487;
+	padding: 10px;
 }
 
 .uk-navbar-nav>li.special>a:hover {
-	color: white !important; 
-	background-color: #51A279;
+	border-color: black;
 }
 
 .uk-navbar-nav>li.uk-active>a>span {
