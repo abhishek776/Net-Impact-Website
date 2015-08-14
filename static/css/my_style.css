@@ -200,5 +200,39 @@ p.cal-info{
 		margin-left: -30%;
 	}
 
+	.home-title h1 {
+		font-size: 35px !important;
+	}
+
+	.home-title h2 {
+		font-size: 18px !important;
+		margin: 0px !important;
+	}
+
+	.home-title {
+		margin-top: 25px !important;
+	}
+
+	.statement {
+		margin-top: 20px !important;
+	}
+
+	.statement .inner.inner-mergin {
+		margin-top: 20px !important;
+	}
+
+	.statement .inner p {
+		font-size: 18px !important;
+	}
+
+	.statement .inner h2 {
+		font-size: 18px !important;
+		line-height: 26px;
+	}
+
+	#start {
+		padding-bottom: 20px !important;
+	}
+
 }
 
