@@ -16,4 +16,8 @@ $(document).ready(function() {
         $(this).children()[0].click();
     });
 
+    $('.member div.icons').click(function(e) {
+        $(this).children()[0].click();
+    });
+
 })
