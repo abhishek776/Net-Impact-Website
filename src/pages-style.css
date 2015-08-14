@@ -230,7 +230,7 @@ h4>span.extra-padding {
     }
 
     .grid-padding-bottom {
-        padding-bottom: 60px !important
+        padding-bottom: 15px !important
     }
 }
 
@@ -373,5 +373,9 @@ h4>span.extra-padding {
     .img-margin {
         margin-top:30px;
         margin-bottom:30px;
+    }
+
+    .grid-padding-bottom {
+        padding-bottom: 15px !important
     }
 }
