@@ -207,6 +207,7 @@ p.cal-info{
 	.home-title h2 {
 		font-size: 18px !important;
 		margin: 0px !important;
+		line-height: 26px;
 	}
 
 	.home-title {
@@ -214,7 +215,7 @@ p.cal-info{
 	}
 
 	.statement {
-		margin-top: 20px !important;
+		margin-top: 30px !important;
 	}
 
 	.statement .inner.inner-mergin {
@@ -233,6 +234,14 @@ p.cal-info{
 	#start {
 		padding-bottom: 20px !important;
 	}
+
+	.my-play-button {
+		font-size: 13pt;
+		padding: 5px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
 
 }
 
