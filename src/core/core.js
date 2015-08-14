@@ -10,6 +10,6 @@ $(document).ready(function() {
 
     // hacky fix for the first click
     $('#off-canvas-click').click();
-
+    UIkit.offcanvas.hide([force = true]);
 
 })
