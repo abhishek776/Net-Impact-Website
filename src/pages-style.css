@@ -167,6 +167,24 @@ h4>span.extra-padding {
     font-size: 18px;
 }
 
+.service-panel h3 {
+    font-size:15px;
+    color: #5EB388;
+}
+
+.service-panel h3>span {
+    text-align: left;
+    padding-bottom: 3px;
+    padding-right: 5px;
+    border-bottom: 1px solid #5EB388;
+    color: #5EB388;
+    font-weight: 400;
+}
+
+.bullet-icon {
+    padding-right: 8px;
+}
+
 .content-holder p {
     font-size: 15px;
     margin-left: 5px;
@@ -177,6 +195,12 @@ h4>span.extra-padding {
 
 .border-left {
     border-left-color: #444;
+    border-left-style: solid;
+    border-left-width: 1px;
+}
+
+.border-left-panel {
+    border-left-color: #BFBFBF;
     border-left-style: solid;
     border-left-width: 1px;
 }
@@ -358,6 +382,20 @@ h4>span.extra-padding {
         margin-top:0px !important;
         margin-bottom:0px !important;
     }
+
+    .not-mobile {
+        display: none;
+    }
+}
+
+.uk-accordion .uk-accordion-title {
+    color: #5EB388;
+    background-color: #ECECEC;
+}
+
+.uk-accordion .uk-list {
+    font-size: 15px !important; 
+    margin-left: 20px !important;
 }
 
 @media(max-width: 768px) {
