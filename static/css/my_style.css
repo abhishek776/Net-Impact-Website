@@ -95,7 +95,7 @@ body {
 }
 
 .uk-navbar-nav>li>a:focus {
-	color: black !important;
+	color: white !important;
 }
 
 .uk-navbar-nav>li>a:active {
